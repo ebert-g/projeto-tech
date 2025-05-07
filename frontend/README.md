@@ -1,12 +1,36 @@
-# React + Vite
+# 🎬 Projeto Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web full stack desenvolvida como estudo de integração entre React + Bootstrap (frontend) e Spring Boot (backend), com consumo da YouTube Data API para exibição dinâmica de vídeos.
 
-Currently, two official plugins are available:
+## 📌 Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto busca exibir os vídeos mais recentes de um canal do YouTube em uma interface simples, moderna e responsiva, com rolagem horizontal. Foi idealizado para fins de aprendizado, praticando integração de APIs, organização de código front-back e uso de bibliotecas modernas.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Tecnologias Utilizadas
+
+### 🔧 Backend - Java Spring Boot
+
+- Java 17
+- Spring Boot 3.4.5
+- RestTemplate (consumo da API externa)
+- YouTube Data API v3
+- Maven
+
+### 💻 Frontend - React + Bootstrap
+
+- React 18 (com Vite)
+- Bootstrap 5
+- Fetch API
+- Vite Dev Server
+
+---
+
+## 🚀 Como Executar Localmente
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seuusuario/projeto-tech.git
+cd projeto-tech
